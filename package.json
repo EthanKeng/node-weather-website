@@ -1,11 +1,11 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "some description",
   "main": "index.js",
   "scripts": {
-    "start":"node src/app.js"
-
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,12 @@
     "express": "^4.16.4",
     "hbs": "^4.0.1",
     "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
   }
 }
