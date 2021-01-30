@@ -33,16 +33,16 @@ app.get('/about', (req, res) => {
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather App from Injected-object',
+        title: '現在の天気は？',
         name: 'Keng'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help Page from Injected-object',
+        title: 'トリセツ',
         name: 'Keng',
-        helpText: 'HelpTextHere'
+        helpText: '場所や住所を入力すると天気情報が出てきます'
 
     })
 })
