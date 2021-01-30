@@ -1,5 +1,3 @@
-console.log("client-side Javascript")
-
 const weatherUrl = "http://localhost:3000/weather?address=" 
 const weatherForm = document.querySelector('form')
 const searchTerm = document.querySelector('input')
