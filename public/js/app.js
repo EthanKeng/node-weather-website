@@ -12,7 +12,7 @@ const messageTwo = document.querySelector('#message-2')
 weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     const location = searchTerm.value
-    // console.log(location)
+    
     messageOne.textContent = 'Loading weather data... '
     messageTwo.textContent = ' '
 
